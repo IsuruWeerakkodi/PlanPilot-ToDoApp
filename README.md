@@ -1,6 +1,8 @@
-This is a simple app to add your to-do list.
+### This is a simple app to add your to-do list.
 
-Used Technologies
-	HTML
-	CSS
-	JavaScript
+#### Used Technologies  =>
+	* HTML
+	* CSS
+	* JavaScript
+	
+
