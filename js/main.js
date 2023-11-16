@@ -22,7 +22,7 @@ class TaskItem {
     set description(value){
         this.#description = value;
         if (this.#liElm)
-            this.#liElm.querySelector('label').innertext = value;
+            this.#liElm.querySelector('label').innerText = value;
     }
 
     constructor (id, description, checked=false){
@@ -34,9 +34,9 @@ class TaskItem {
             this.#liElm.remove();
         });
         this.#liElm.querySelector(".edit").addEventListener('click', ()=>{
-            txtTaskElm.value = this.description;
+            txtInputElm.value = this.description;
             btnAddElm.innerText = "UPDATE";
-            txtTaskElm.focus();
+            txtInputElm.focus();
             selectedTask = this;
         });
     }
@@ -54,8 +54,14 @@ class TaskItem {
         </label>
         </div>
         <div class="d-flex gap-2 ">
-            <i class="edit bi bi-pencil-fill"></i>
-            <i class="delete bi bi-trash-fill"></i>
+            <i data-bs-toggle="tooltip"
+            data-bs-placement="left"
+            data-bs-title="Click to edit"  
+            class="edit bi bi-pencil-fill"></i>
+            <i data-bs-toggle="tooltip"
+            data-bs-placement="left"
+            data-bs-title="Click to delete" 
+            class="delete bi bi-trash-fill"></i>
         </div>
         `;
         ulElm.prepend(liElm);
@@ -69,11 +75,12 @@ btnAddElm.addEventListener('click', ()=> {
     if(text) {
         if(selectedTask !== null) {
             selectedTask.description = text;
+            console.log("dvefveve",selectedTask.description);
+            // selectedTask.querySelector('label').innerText = text;
             selectedTask=null;
             btnAddElm.innerText = "ADD";
         }else {
-            console.log("worrrrrrrrrrrrrrking")
-            new TaskItem(lastTaskId, text);
+            new TaskItem(lastTaskId++, text);
         }
         txtInputElm.value = '';
         txtInputElm.focus();

@@ -3,11 +3,60 @@ body {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
+    
 }
 
 #btn-add{
     width: 100px;
+}
+
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    
+}
+main{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+main::-webkit-scrollbar-thumb {
+    background: rgb(0, 162, 255);
+  }
+
+main::-webkit-scrollbar {
+    width: 8px;
+    background-color: #cccccc;
+  }
+
+  ul > li:hover {
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+}
+
+ul > li:hover .edit {
+    visibility: visible;
+}
+
+ul > li label {
+    cursor: pointer;
+}
+
+ul > li input:checked + label {
+    text-decoration: line-through;
+    color: gray;
+}
+
+ul > li .delete:hover {
+    color: red;
+    cursor: pointer;
+}
+
+ul > li .edit:hover {
+    color: green;
+    cursor: pointer;
 }

@@ -5,4 +5,6 @@
 	* CSS
 	* JavaScript
 	
+### License
 
+This project is licensed under [MIT License](LICENSE)
