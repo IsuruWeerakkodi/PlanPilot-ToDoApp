@@ -9,7 +9,6 @@ PlanPilot is a ToDoApp designed to help you manage your tasks efficiently.
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -42,10 +41,10 @@ Edit task descriptions by clicking the edit icon.
 Contributing
 If you would like to contribute to this project, please follow these guidelines:
 
-License
+## License
 This project is licensed under the [MIT License](LICENSE).
 
-Contact
+## Contact
 If you have any questions or suggestions, feel free to reach out to the project maintainer:
 
 Copyright &copy; 2023 Isuru Weerakkodi. All Rights Reserved.
