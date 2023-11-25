@@ -42,8 +42,6 @@ Edit task descriptions by clicking the edit icon.
 Contributing
 If you would like to contribute to this project, please follow these guidelines:
 
-###Fork the repository.
-
 License
 This project is licensed under the [MIT License](LICENSE).
 
