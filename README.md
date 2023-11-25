@@ -30,9 +30,9 @@ To run PlanPilot locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/PlanPilot.git
+   git clone https://github.com/IsuruWeerakkodi/PlanPilot-ToDoApp.git
 
-Usage
+### Usage
 Open the application in your web browser.
 Enter new tasks in the input field.
 Click the "ADD" button to add tasks to the list.
@@ -42,30 +42,13 @@ Edit task descriptions by clicking the edit icon.
 Contributing
 If you would like to contribute to this project, please follow these guidelines:
 
-Fork the repository.
-
-Create a new branch for your feature or bug fix:
-
-bash
-Copy code
-git checkout -b feature/your-feature-name
-Make your changes and commit them:
-
-bash
-Copy code
-git commit -m "Add your commit message here"
-Push your changes to your fork:
-
-bash
-Copy code
-git push origin feature/your-feature-name
-Open a pull request to the main repository.
+###Fork the repository.
 
 License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 Contact
 If you have any questions or suggestions, feel free to reach out to the project maintainer:
 
-All Rights reserved (c) Isuru Weerakkodi
+Copyright &copy; 2023 Isuru Weerakkodi. All Rights Reserved.
 Email: isuruweerakkodi24@gmail.com
