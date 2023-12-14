@@ -27,7 +27,7 @@ PlanPilot is a simple ToDoApp built with HTML, CSS, and JavaScript. This is a ba
 ## Development
 This ia a fundamental showcase of javaScript.
 The possible developments are,
-   - Use Fetch API, jQuery Ajax or HttpRequest and connect the priject with a backend.
+   - Use Fetch API, jQuery Ajax or HttpRequest and connect the project with a backend.
    - Connect to a database and set CRUD operations with database
 
 ## Installation
