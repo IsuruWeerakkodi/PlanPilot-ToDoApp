@@ -60,7 +60,6 @@ class TaskItem {
             class="edit bi bi-pencil-fill"></i>
             <i data-bs-toggle="tooltip"
             data-bs-placement="left"
-            data-bs-title="Click to delete" 
             class="delete bi bi-trash-fill"></i>
         </div>
         `;
